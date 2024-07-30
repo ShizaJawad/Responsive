@@ -17,7 +17,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 50px;
+    margin: 30px;
 }
 
 .logo-img{
