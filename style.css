@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+
+.logo-img{
+    width: 165px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.franchise-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 25px;
+    color: white;
+    width: 170px;
+    font-size: 1.5rem;
+}
+
+.order-btn{
+    background-color: red;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+.arrow{
+    width: 30px;
+}
+
+.menu{
+    display: none;
+}
+
+@media(max-width: 1000px){
+    .nav-items{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
